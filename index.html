@@ -19,21 +19,22 @@
   <h1>SPLI <br> TTER</h1>
   <main>
     <label for="bill">Bill</label>
-    <div class="bill">
-      <span><img src="./images/icon-dollar.svg" alt="dollar"></span><input type="number">
+    <div class="icon-input">
+      <span><img src="./images/icon-dollar.svg" alt="dollar"></span><input type="number" id="bill">
     </div>
     <label for="tips">Selected Tip %</label>
     <div class="tips_cards">
-      <button id="5" class="card">5%</button>
-      <button id="10" class="card">10%</button>
-      <button id="15" class="card">15%</button>
-      <button id="25" class="card">25%</button>
-      <button id="50" class="card">50%</button>
-      <div class="custom-percentage">
-        <input class="custom" type="per" placeholder="Custom"><span>%</span>
-      </div>
+      <button id="5">5%</button>
+      <button id="10">10%</button>
+      <button id="15">15%</button>
+      <button id="25">25%</button>
+      <button id="50">50%</button>
+      <div class="custom"><input type="number" placeholder="Custom" id="custom_tip"><span>%</span></div>
     </div>
     <label for="people-num">Number of People</label>
+    <div class="icon-input">
+      <span><img src="./images/icon-person.svg" alt="person"></span><input type="number" id="people-num">
+    </div>
   </main>
   <script src="script.js"></script>
 </body>
