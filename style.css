@@ -80,7 +80,7 @@ label:nth-child(5){
 button{
     border: none;
     outline: none;
-    width: 48%;
+    width: 45%;
     text-align: center;
     font-size: 1rem;
     background-color: #3a5b5e;
@@ -99,7 +99,7 @@ button:focus{
 .custom{
     display: flex;
     justify-content: space-evenly;
-    width: 45%;
+    width: 40%;
     padding:0 0.5rem 0 0;
     border-radius: 10px;
     border: 3px solid #26c2ad;
@@ -114,6 +114,7 @@ button:focus{
 .custom input{
     color: #3a5b5e;
     border: none;
+    width: 100%;
     padding: 0.15rem;
     outline: none;
     text-align: center;
