@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href='https://fonts.googleapis.com/css?family=Space Mono' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
+  <title>Tip calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+
+<body>
+  <h1>SPLI <br> TTER</h1>
+  <main>
+    <label for="bill">Bill</label>
+    <div class="bill">
+      <span><img src="./images/icon-dollar.svg" alt="dollar"></span><input type="number">
+    </div>
+    <label for="tips">Selected Tip %</label>
+    <div class="tips_cards">
+      <button id="5" class="card">5%</button>
+      <button id="10" class="card">10%</button>
+      <button id="15" class="card">15%</button>
+      <button id="25" class="card">25%</button>
+      <button id="50" class="card">50%</button>
+      <div class="custom-percentage">
+        <input class="custom" type="per" placeholder="Custom"><span>%</span>
+      </div>
+    </div>
+    <label for="people-num">Number of People</label>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
