@@ -20,7 +20,8 @@
   <main>
     <label for="bill">Bill</label>
     <div class="icon-input">
-      <span><img src="./images/icon-dollar.svg" alt="dollar"></span><input type="number" id="bill">
+      <span><img src="./images/icon-dollar.svg" alt="dollar"></span>
+      <input type="number" id="bill">
     </div>
     <label for="tips">Selected Tip %</label>
     <div class="tips_cards">
@@ -35,6 +36,22 @@
     <div class="icon-input">
       <span><img src="./images/icon-person.svg" alt="person"></span><input type="number" id="people-num">
     </div>
+    <section class="result_container">
+      <div>
+        <p>Tip Amount <br>
+          <span>/person</span>
+        </p>
+        <div class="result" id="tip_amount">$0.00</div>
+      </div>
+      <div>
+        <p>
+          Total <br>
+          <span>/person</span>
+        </p>
+        <div class="result" id="total_amount">$0.00</div>
+      </div>
+      <button class="enable" disabled>Reset</button>
+    </section>
   </main>
   <script src="script.js"></script>
 </body>

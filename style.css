@@ -88,11 +88,15 @@ button{
     padding:0.3rem 0;
     color: white;
 }
-button:hover{
+.tips_cards button:hover{
     background-color: #9fe8df;
     color:#3a5b5e;
 }
-button:focus{
+.tips_cards button:focus{
+    color: #3a5b5e;
+    background-color: #26c2ad;
+}
+.active{
     color: #3a5b5e;
     background-color: #26c2ad;
 }
@@ -118,4 +122,45 @@ button:focus{
     padding: 0.15rem;
     outline: none;
     text-align: center;
+}
+.result_container{
+    background-color: #3a5b5e;
+    color: white;
+    border-radius: 10px;
+    padding: 2rem 1rem 0 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.result_container div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.result_container div p{
+    font-size: 1.3rem;
+}
+.result_container div span{
+    font-size: 1rem;
+    color: #7b9193;
+}
+.result{
+    font-size: 2rem;
+    color: #26c2ad;
+}
+.result_container button{
+    color: #3a5b5e;
+    width: 100%;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+.enable{
+    background-color: #26c2ad;
+}
+.result_container button:disabled{
+    background-color: #0b686d;
+
+}
+.enable:active{
+    background-color:  #9fe8df;
 }
