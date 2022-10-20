@@ -21,7 +21,6 @@ input::-webkit-inner-spin-button {
 
 body{
     background-color: #c5e4e7;
-    overflow: hidden;
 }
 h1{
     color: #3a5b5e;
@@ -200,10 +199,5 @@ button{
     }
     .custom input{
         font-size: 1.5rem;
-    }
-}
-@media screen and (orientation:landscape){
-    body{
-        overflow: initial;
     }
 }
