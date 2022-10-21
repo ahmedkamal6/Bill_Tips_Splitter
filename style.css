@@ -166,38 +166,4 @@ button{
 .enable:active{
     background-color:  #9fe8df;
 }
-@media screen and (min-width:1440px) {
-    main{
-        width: 60%;
-        padding: 2rem;
-        margin: auto;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    main > div{
-        width: 45%;
-    }
-    main section{
-        width: 45%;
-    }
-    h1{
-        font-size: 3rem;
-        margin: 3rem;
-    }
-    button{
-        width: 30%;
-        font-size: 1.5rem;
-        padding:0.5rem 0;
-    }
-    .custom{
-        width: 26%;
-        height: 45px;
-    }
-    .custom span{
-        line-height: 200%;
-        font-size: 1.5rem;
-    }
-    .custom input{
-        font-size: 1.5rem;
-    }
-}
+
